@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_map_animations/flutter_map_animations.dart';
@@ -8,8 +7,8 @@ import 'package:handover/core/application/di/injection_container.dart';
 import 'package:handover/core/application/locale/locale_cubit.dart';
 import 'package:handover/core/application/locale/locale_state.dart';
 import 'package:handover/core/application/theme/colors.dart';
-import 'package:handover/features/tracking/presentation/controllers/shipments/shipments_cubit.dart';
-import 'package:handover/features/tracking/presentation/pages/shipments_page.dart';
+import 'package:handover/features/shipment/presentation/controllers/shipments/shipments_cubit.dart';
+import 'package:handover/features/shipment/presentation/pages/shipments_page.dart';
 import 'package:handover/generated/l10n.dart';
 
 class App extends StatefulWidget {
@@ -68,7 +67,3 @@ class _AppState extends State<App>
     );
   }
 }
-
-
-
-

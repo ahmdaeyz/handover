@@ -17,11 +17,11 @@ import 'package:handover/core/data/data_sources/cache_data_source.dart' as _i8;
 import 'package:handover/core/data/data_sources/env_variables.dart' as _i3;
 import 'package:handover/core/data/data_sources/secure_cache_data_source.dart'
     as _i9;
-import 'package:handover/features/tracking/data/data_sources/shipments_data_source.dart'
+import 'package:handover/features/shipment/data/data_sources/shipments_data_source.dart'
     as _i10;
-import 'package:handover/features/tracking/data/repositories/shipments_repository.dart'
+import 'package:handover/features/shipment/data/repositories/shipments_repository.dart'
     as _i11;
-import 'package:handover/features/tracking/data/services/shipments_service.dart'
+import 'package:handover/features/shipment/data/services/shipments_service.dart'
     as _i7;
 import 'package:injectable/injectable.dart' as _i2;
 import 'package:logger/logger.dart' as _i6;
