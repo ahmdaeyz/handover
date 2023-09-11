@@ -2,6 +2,19 @@
 
 An App for Delivery services for individuals to deliver packages from one place to another.
 
+#### Note that the app supports both Arabic and English Language, It reads the device's current language and uses it if it is supported. 
+##### Check out some of the Arabic version's screenshots from [here](https://github.com/ahmdaeyz/handover/tree/master/screenshots).
+
+## Demo
+
+https://github.com/ahmdaeyz/handover/assets/36048466/31124ea3-aa0a-4fb9-a28a-1815101c33cc
+
+
+## App Logic/Business
+![Flow Chart](https://github.com/ahmdaeyz/handover/blob/master/docs/flow_chart.png) ![Notification sequence diagram](https://github.com/ahmdaeyz/handover/blob/master/docs/notification_sequence.png) 
+
+## Simulation
+The app simulates the delivery process offline based on the logic flow chart attached above, Check out the `ShipmentsService` class and its documentation in the source code.
 ## Getting Started
 
 This project is a starting point for a Flutter application.
