@@ -15,9 +15,19 @@ https://github.com/ahmdaeyz/handover/assets/36048466/31124ea3-aa0a-4fb9-a28a-181
 
 ## Simulation
 The app simulates the delivery process offline based on the logic flow chart attached above, Check out the `ShipmentsService` class and its documentation in the source code.
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Background Tracking
+Due to platform and vendor limitations and non-reliability, the idea was discarded. A possible and recommended solution is relying on Remote Push notifications to update the app data and maybe refresh/update a LiveActivity on iOS 16+.
+Checkout the following links:
+  - [https://developer.apple.com/forums/thread/685525](https://developer.apple.com/forums/thread/685525)
+  - [https://developer.apple.com/forums/thread/85066](https://developer.apple.com/forums/thread/85066)
+
+## Next Steps
+- Add tests for the simulation class.
+- Create a backend service and integrate with it swapping `ShipmentsService`.
+- Add integration tests to validate the whole flow (maybe use patrol).
+
+## Getting Started
 
 A few resources to get you started if this is your first Flutter project:
 
